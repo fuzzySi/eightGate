@@ -1,14 +1,14 @@
 /*
      eightGate by fuzzySynths
      converts top row of Arturia Beatstep Pro to gate outputs, for a modular synth
-     also metronome output, producing gate signal on bar (velocity over 80) & beats
+     also metronome output, producing gate signal on bar & beats
      MIDI_decoder for ATtiny84
 
      code adapted from https://arduino.stackexchange.com/questions/14054/interfacing-an-attiny85-with-midi-via-software-serial
 
 
   v10 - doesn't trigger some modules (prok drums). MIDI notes too long so ? overlap?
-  v11 - change to 1mg triggers.
+  v12 - changed to 1mg triggers.
 
   also try direct port manipulation (quicker)
 
